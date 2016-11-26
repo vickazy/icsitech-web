@@ -1,0 +1,323 @@
+/* 1504919 Ziady Mubaraq */
+body {
+	color: #000;
+	font-family: 'Century Gothic';
+}
+.icsi-head {
+	width: 185px;
+}/* 1504919 Ziady Mubaraq */
+
+.ieee-head {
+    width: 145px;
+    float: right;
+}
+
+#utilitymenu{
+    float: right;
+    display: block; 
+    list-style: none;
+}
+
+#utilitymenu li {
+    display: inline;
+    font-size: 13px;
+    color:#bbbdbf;
+    margin-top: 5px;
+
+}
+
+#utilitymenu li a, #utilitymenu li a:hover {
+    font-family: 'Oswald';
+    color: #bbbdbf;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: .3px;
+    font-size: 0.9em;
+}
+#utilitymenu li a b, #utilitymenu li a:hover b{
+    font-family: 'Oswald';
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    letter-spacing: .3px;
+    font-size: 0.9em;
+}
+
+.head-bg {
+	background-color: #e5e5e5;
+	padding: 10px 0;
+}
+
+.icsi-text-head {
+    font-family: 'Oswald';
+    font-weight: 100;
+    font-size: 15px;
+    font-style: normal;
+    color: rgb(98, 98, 98);
+    margin-top: 15px;
+}
+.icsi-text-second-head {
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: -14px;
+    letter-spacing: 0.75px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ddd; 
+}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
+    background: #4ba6ff; 
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ddd;
+}
+.navbar {
+	border-radius: 0;
+	min-height: 20px;
+	margin-bottom: 0;
+}
+.navbar-default {
+	background-color: #007eff;
+	color: #fff;
+	border: 0; 
+}
+.navbar-default .navbar-nav li a, .navbar-default .navbar-brand {
+	color: #fff;
+}
+.nav li a {
+	font-family: 'Oswald';
+	font-size: 16px;
+	padding: 15px 15px 10px 15px;
+	text-transform: uppercase;
+}
+li.delimiter {
+    padding-left: 0px;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-size: 19px; 
+}/* 1504919 Ziady Mubaraq */
+.navbar-default .navbar-nav>.active>a {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 5px solid #f1c40f;
+}
+.navbar-default .navbar-nav>li.delimiter>a:hover {
+	color: #fff;
+}
+.navbar-default .navbar-nav>li.divider>a:hover {
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 5px solid #f1c40f;
+}
+#box1 {
+    background: #ff1919 url(assets/img/box-decorative.png) bottom right no-repeat;
+    height: 130px;
+    color: white;
+    padding: 5px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    letter-spacing: 0px;
+}
+#box2 {
+    background: #ffa619 url(assets/img/box-decorative.png) bottom right no-repeat;
+    height: 130px;
+    color: white;
+    padding: 5px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    letter-spacing: 0px;
+}
+#box3 {
+    background: #1094a4 url(assets/img/box-decorative.png) bottom right no-repeat;
+    height: 130px;
+    color: white;
+    padding: 5px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    letter-spacing: 0px;
+}
+.link2 {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Oswald';
+}
+.link2:hover{
+    text-decoration: none;
+    color: #e0dcd9;
+}
+.bold {
+    font-weight: bold;
+}
+.ghost-button-thick-border {
+    display: inline-block;
+    width: 130px;
+    font-weight: normal;
+    padding: 2px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.ghost-button-thick-border:hover, .ghost-button-thick-border:active {
+    background-color: #fff;
+    color: #b3b3b3;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+    text-decoration: none;
+}
+/* 1504919 Ziady Mubaraq */
+.subHeading {
+    color: white;
+    font-size: 21px;
+    letter-spacing: -.5px;
+    font-weight: bold;
+    width: 330px;
+    padding: 8px 8px;
+    padding-left: 12px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.textHeading {
+    font-family: 'Verdana';
+    color: black;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}/* 1504919 Ziady Mubaraq */
+h3.righttitle {
+    margin-top: 0px;
+    color: #4aa3ff;
+    font-weight: bold;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px solid #eee;
+}
+
+.phase {
+    color: #ff9000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.datephase {
+    color: #ff9000;
+    font-size: 17.5px;
+    font-weight: bold; 
+    margin-left: 20px;
+}
+
+.linephase {
+    color: #adadad;
+    font-size: 17.5px;
+    font-weight: bold; 
+    margin-left: 20px;
+    line-height: 0px;
+    margin-bottom: 17px;
+}
+
+p, ul, li {
+    font-family: 'roboto';
+}
+#st {
+    font-size: 80%;
+}
+/* 1504919 Ziady Mubaraq */
+#owl-sc .item img {
+    display: block;
+    width: auto;
+    height: 195px;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.titleks {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+#owl-ks .item img {
+    display: block;
+    width: auto;
+    height: 195px;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid grey;
+}
+.white {
+    color: white;
+}
+.parallax {
+	background: url(../img/keynote.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+}/* 1504919 Ziady Mubaraq */
+.ksname {
+    font-family: 'Oswald';
+    font-size: 22px;
+    padding-top: 16px;
+}
+.ksuniv {
+    font-family: 'Roboto';
+    color: #a1a5ae;
+    font-size: 15px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+#owl-f .item img {
+    display: block;
+    width: auto;
+    height: 100px;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+	margin-top: 40px;
+}
+/* 1504919 Ziady Mubaraq */
+.table-responsive {
+	border: 0;
+}
+@media (max-width: 768px) {
+	.navbar-nav .delimiter {
+		display: none;
+	}
+	.navbar-default .navbar-nav>.active>a {
+	    color: #fff;
+	    background-color: #006ee1;
+	    border-bottom: 0;
+	}
+	.navbar-default .navbar-nav>li.divider>a:hover {
+	    color: #fff;
+	    background-color: #006ee1;
+	    border-bottom: 0;
+	}
+	.ksuniv {
+	    font-family: 'Roboto';
+	    color: #a1a5ae;
+	    font-size: 15px;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	}
+
+}/* 1504919 Ziady Mubaraq */ 
+@media (max-width: 990px){
+    .ieee-show {
+        display: none;
+    }
+}
